@@ -1,3 +1,8 @@
+###  ( For This Project Self)
+# gen-stub
+gen-stub/lib/buf/*
+gen-stub/lib/protoc/*
+
 
 
 
