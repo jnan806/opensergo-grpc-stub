@@ -4,12 +4,12 @@ plugins:
     out: ../opensergo-grpc-java/src/main/java
   - remote: buf.build/grpc/plugins/java:v1.49.0-1
     out: ../opensergo-grpc-java/src/main/java
-#
-#  - remote: buf.build/protocolbuffers/plugins/go:v1.27.1-1
-#    out: ../opensergo-grpc-go
-#  - remote: buf.build/grpc/plugins/go:v1.2.0-1
-#    out: ../opensergo-grpc-go
-#
+
+  - remote: buf.build/protocolbuffers/plugins/go:v1.27.1-1
+    out: ../opensergo-grpc-go
+  - remote: buf.build/grpc/plugins/go:v1.2.0-1
+    out: ../opensergo-grpc-go
+
 #  - remote: buf.build/protocolbuffers/plugins/cpp:v21.6.0-1
 #    out: ../opensergo-grpc-cpp
 #  - remote: buf.build/grpc/plugins/cpp:v1.49.0-1

@@ -2,6 +2,10 @@
 # gen-stub
 gen-stub/lib/buf/*
 gen-stub/lib/protoc/*
+# go
+opensergo-grpc-go/*
+!opensergo-grpc-go/go.mod
+!opensergo-grpc-go/go.sum
 # java
 opensergo-grpc-java/*
 !opensergo-grpc-java/pom.xml
@@ -31,6 +35,3 @@ out/
 .myeclipse
 .classpath
 .project
-
-### JAVA
-target/
