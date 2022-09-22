@@ -73,6 +73,13 @@
             <version>${google.protobuf.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>io.envoyproxy.protoc-gen-validate</groupId>
+            <artifactId>pgv-java-stub</artifactId>
+            <version>0.6.7</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
