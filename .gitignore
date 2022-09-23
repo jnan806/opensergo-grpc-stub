@@ -6,9 +6,11 @@ gen-stub/lib/protoc/*
 opensergo-grpc-go/*
 !opensergo-grpc-go/go.mod
 !opensergo-grpc-go/go.sum
+!opensergo-grpc-go/.gitignore
 # java
 opensergo-grpc-java/*
 !opensergo-grpc-java/pom.xml
+!opensergo-grpc-java/.gitignore
 
 
 
